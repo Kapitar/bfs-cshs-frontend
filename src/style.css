@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --light-blue: #292a2d;
+    --dark-blue: #252627;
+}
