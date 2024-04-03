@@ -3,9 +3,9 @@
     <div class="container flex justify-between">
       <a class="navbar-link" href="/">cshs@bfs ~ $</a>
       <nav class="navbar">
-        <a class="navbar-link" href="/about">~/about</a>
-        <a class="navbar-link" href="/projects">~/projects</a>
-        <a class="navbar-link" href="/members">~/members</a>
+        <a class="navbar-link" href="/bfs-cshs-frontend/about">~/about</a>
+        <a class="navbar-link" href="/bfs-cshs-frontend/projects">~/projects</a>
+        <a class="navbar-link" href="/bfs-cshs-frontend/members">~/members</a>
       </nav>
     </div>
   </div>

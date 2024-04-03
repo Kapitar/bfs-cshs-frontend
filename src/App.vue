@@ -94,13 +94,13 @@ export default {
   },
   created() {
     let path = window.location.pathname;
-    if(path === "/") {
+    if(path === "/bfs-cshs-frontend/") {
       this.loaderText = "python bfs_cshs.py";
-    } else if(path === "/about") {
+    } else if(path === "/bfs-cshs-frontend/about") {
       this.loaderText = "python bfs_cshs.py --page about";
-    } else if(path === "/projects") {
+    } else if(path === "/bfs-cshs-frontend/projects") {
       this.loaderText = "python bfs_cshs.py --page projects";
-    } else if(path === "/members") {
+    } else if(path === "/bfs-cshs-frontend/members") {
       this.loaderText = "python bfs_cshs.py --page members";
     }
   }
