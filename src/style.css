@@ -5,4 +5,9 @@
 :root {
     --light-blue: #292a2d;
     --dark-blue: #252627;
+    --blue: #3c64ff;
+}
+
+html, body, #app {
+    height: 100%;
 }

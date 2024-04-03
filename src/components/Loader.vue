@@ -28,7 +28,7 @@ export default {
   },
   mounted() {
     new TypeIt("#loader-text", {
-      speed: 75,
+      speed: 40,
       afterComplete: function (instance) {
         setTimeout(() => {
           document.getElementById("loading").style.opacity = "0";
