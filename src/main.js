@@ -21,7 +21,7 @@ const app = createApp(App).use(Particles, {
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/bfs-cshs-frontend/', component: HomeView },
+        { path: '/bfs-cshs-frontend', component: HomeView },
         { path: '/bfs-cshs-frontend/about', component: AboutView },
         { path: '/bfs-cshs-frontend/projects', component: ProjectsView },
         { path: '/bfs-cshs-frontend/members', component: MembersView },
