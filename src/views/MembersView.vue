@@ -70,6 +70,7 @@ export default {
 
 <style scoped>
 .members {
-  margin-top: 100px;
+  margin-top: 50px;
+    margin-bottom: 100px;
 }
 </style>
