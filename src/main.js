@@ -20,7 +20,7 @@ const app = createApp(App).use(Particles, {
 });
 
 const router = createRouter({
-    history: createWebHistory("/cshs/"),
+    history: createWebHistory(),
     routes: [
         { path: '/', component: HomeView },
         { path: '/about', component: AboutView },

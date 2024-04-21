@@ -2,7 +2,7 @@
   <div class="container content-wrapper text-center">
     <div class="main-text xl:text-7xl md:text-7xl text-5xl">
       <p id="element"></p>
-      <a href="/cshs/about">
+      <a href="/about">
         <button class="learn-more" id="learn-btn">Learn more</button>
       </a>
     </div>
