@@ -8,6 +8,7 @@ import App from './App.vue'
 import HomeView from "./views/HomeView.vue";
 import AboutView from "./views/AboutView.vue";
 import ProjectsView from "./views/ProjectsView.vue";
+import ProjectView from "./views/ProjectView.vue";
 import MembersView from "./views/MembersView.vue";
 import "./style.css"
 
@@ -19,12 +20,13 @@ const app = createApp(App).use(Particles, {
 });
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory("/cshs/"),
     routes: [
-        { path: '/bfs-cshs-frontend', component: HomeView },
-        { path: '/bfs-cshs-frontend/about', component: AboutView },
-        { path: '/bfs-cshs-frontend/projects', component: ProjectsView },
-        { path: '/bfs-cshs-frontend/members', component: MembersView },
+        { path: '/', component: HomeView },
+        { path: '/about', component: AboutView },
+        { path: '/projects', component: ProjectsView },
+        { path: '/projects/:id', component: ProjectView },
+        { path: '/members', component: MembersView },
     ]
 })
 

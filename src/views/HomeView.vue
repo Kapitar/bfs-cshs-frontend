@@ -1,8 +1,10 @@
 <template>
-  <div class="container mx-auto">
-    <div class="main-text mx-auto text-center">
+  <div class="container content-wrapper text-center">
+    <div class="main-text xl:text-7xl md:text-7xl text-5xl">
       <p id="element"></p>
-      <a href="/about"><button class="learn-more" id="learn-btn">Learn more</button></a>
+      <a href="/cshs/about">
+        <button class="learn-more" id="learn-btn">Learn more</button>
+      </a>
     </div>
   </div>
 </template>
@@ -37,9 +39,21 @@ export default {
 </script>
 
 <style scoped>
+
 .main-text {
-  font-size: 72px;
-  margin-top: 300px;
+  /*height: 100%;*/
+  /*font-size: 72px;*/
+  width: 95%;
+  line-height: inherit;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.content-wrapper {
+  display: flex;
 }
 
 .learn-more {

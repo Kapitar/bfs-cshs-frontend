@@ -40,7 +40,6 @@ export default {
     })
         .type(this.page)
         .pause(150)
-        .break()
         .go();
   }
 }

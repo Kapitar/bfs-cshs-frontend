@@ -1,13 +1,13 @@
 <template>
   <div class="project">
-    <img class="project-image" :class="{'float-right': float === 'right', 'float-left': float === 'left', 'mr-5': float === 'left'}" :src="photo" alt="">
+    <img class="project-image" :class="{'xl:float-right xl:mb-0 mb-6': float === 'right', 'float-left': float === 'left', 'mr-5': float === 'left'}" :src="photo" alt="">
     <div class="project-title">
       {{title}}
     </div>
     <div class="project-description mt-2">
       {{description}}
     </div>
-    <a :href="'/projects/' + project_id">
+    <a :href="'/cshs/projects/' + project_id">
       <button class="learn-more" id="learn-btn">Learn more</button>
     </a>
   </div>

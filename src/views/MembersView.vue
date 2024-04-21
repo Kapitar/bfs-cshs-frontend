@@ -1,16 +1,16 @@
 <template>
   <div class="container">
     <h1 class="title text-center" id="members-title"></h1>
-    <div class="members grid grid-cols-4 gap-4">
-      <div class="grid grid-cols-subgrid gap-4 col-span-3 ">
-        <div class="col-start-2">
+    <div class="members grid xl:grid-cols-4 grid-cols-2 lg:gap-x-20 gap-y-4 lg:mb-0 mb-5">
+      <div class="grid grid-cols-subgrid col-span-3">
+        <div class="xl:col-start-2 col-start-1">
           <Person
               photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
               name="Tanvi Kumar"
               position="President"
           />
         </div>
-        <div class="col-start-3">
+        <div class="xl:col-start-3 col-start-2">
           <Person
               photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
               name="Grace Chun"
@@ -33,14 +33,14 @@
             position="Webmaster"
         />
       </div>
-      <div class="col-start-3">
+      <div class="xl:col-start-3 col-start-1">
         <Person
             photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
             name="Justin Yeo"
             position="Webmaster"
         />
       </div>
-      <div class="col-start-4">
+      <div class="xl:col-start-4 col-start-2">
         <Person
             photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
             name="Dr. Barnes"

@@ -72,7 +72,7 @@
   <div class="wrapper">
     <Loader :page="loaderText"/>
     <Navbar/>
-    <div class="content">
+    <div class="content flex">
       <router-view />
     </div>
     <Footer/>
@@ -94,14 +94,16 @@ export default {
   },
   created() {
     let path = window.location.pathname;
-    if(path === "/bfs-cshs-frontend/") {
+    if(path === "/cshs/") {
       this.loaderText = "python bfs_cshs.py";
-    } else if(path === "/bfs-cshs-frontend/about") {
+    } else if(path === "/cshs/about") {
       this.loaderText = "python bfs_cshs.py --page about";
-    } else if(path === "/bfs-cshs-frontend/projects") {
+    } else if(path === "/cshs/projects") {
       this.loaderText = "python bfs_cshs.py --page projects";
-    } else if(path === "/bfs-cshs-frontend/members") {
+    } else if(path === "/cshs/members") {
       this.loaderText = "python bfs_cshs.py --page members";
+    } else {
+      this.loaderText = "python bfs_cshs.py --page " + path;
     }
   }
 }

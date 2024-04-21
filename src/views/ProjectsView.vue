@@ -33,13 +33,13 @@ export default {
             id: 1,
             photo: Photo
           },
-        {
-          title: "ES Codementum International Coding Competition",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, minus, sequi. Blanditiis consequuntur ipsa\n" +
-              "      nobis quod repellat, rerum sequi veniam voluptas! Beatae ex facere facilis harum modi quaerat sunt totam.",
-          id: 2,
-          photo: Photo
-        }
+        // {
+        //   title: "ES Codementum International Coding Competition",
+        //   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, minus, sequi. Blanditiis consequuntur ipsa\n" +
+        //       "      nobis quod repellat, rerum sequi veniam voluptas! Beatae ex facere facilis harum modi quaerat sunt totam.",
+        //   id: 2,
+        //   photo: Photo
+        // }
       ],
     }
   },

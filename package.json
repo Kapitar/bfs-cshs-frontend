@@ -3,17 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kapitar.github.io/bfs-cshs-frontend/",
+  "homepage": "",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tsparticles/slim": "^3.3.0",
     "@tsparticles/vue3": "^3.0.1",
+    "dist": "^0.1.2",
+    "flowbite": "^2.3.0",
     "jquery": "^3.7.1",
     "t.js": "^0.0.0",
     "typeit": "^8.8.3",
