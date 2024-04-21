@@ -7,7 +7,7 @@
     <div class="project-description mt-2">
       {{description}}
     </div>
-    <a :href="'/cshs/projects/' + project_id">
+    <a :href="'/projects/' + project_id">
       <button class="learn-more" id="learn-btn">Learn more</button>
     </a>
   </div>
