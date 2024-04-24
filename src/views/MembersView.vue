@@ -5,14 +5,14 @@
       <div class="grid grid-cols-subgrid col-span-3">
         <div class="xl:col-start-2 col-start-1">
           <Person
-              photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+              photo="/src/assets/images/photos/Tanvi.jpg"
               name="Tanvi Kumar"
               position="President"
           />
         </div>
         <div class="xl:col-start-3 col-start-2">
           <Person
-              photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+              photo="/src/assets/images/photos/Grace.jpg"
               name="Grace Chun"
               position="Vice President"
           />
@@ -21,30 +21,30 @@
 
       <div class="col-start-1">
         <Person
-            photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+            photo="/src/assets/images/photos/Chloe.jpg"
             name="Chloe Jang"
             position="Treasurer"
         />
       </div>
       <div class="col-start-2">
         <Person
-            photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+            photo="/src/assets/images/photos/Artem.jpg"
             name="Artem Kim"
             position="Webmaster"
         />
       </div>
       <div class="xl:col-start-3 col-start-1">
         <Person
-            photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+            photo="/src/assets/images/photos/Justin.jpg"
             name="Justin Yeo"
             position="Webmaster"
         />
       </div>
       <div class="xl:col-start-4 col-start-2">
         <Person
-            photo="https://media.istockphoto.com/id/177228186/photo/young-capybara.jpg?s=612x612&w=0&k=20&c=MaLAlTZA3N5fa2Gp2FeCdZCwSbCLXkVVeKTks7IJIgM="
+            photo="/src/assets/images/photos/Barnes.jpg"
             name="Dr. Barnes"
-            position="Teacher"
+            position="Advisor"
         />
       </div>
     </div>
