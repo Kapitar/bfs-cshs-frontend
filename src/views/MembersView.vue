@@ -5,14 +5,14 @@
       <div class="grid grid-cols-subgrid col-span-3">
         <div class="xl:col-start-2 col-start-1">
           <Person
-              photo="/src/assets/images/photos/Tanvi.jpg"
+              photo="https://i.imgur.com/rTaxZA6.jpeg"
               name="Tanvi Kumar"
               position="President"
           />
         </div>
         <div class="xl:col-start-3 col-start-2">
           <Person
-              photo="/src/assets/images/photos/Grace.jpg"
+              photo="https://i.imgur.com/nbSVbB7.jpeg"
               name="Grace Chun"
               position="Vice President"
           />
@@ -21,28 +21,28 @@
 
       <div class="col-start-1">
         <Person
-            photo="/src/assets/images/photos/Chloe.jpg"
+            photo="https://i.imgur.com/qr8NX21.jpeg"
             name="Chloe Jang"
             position="Treasurer"
         />
       </div>
       <div class="col-start-2">
         <Person
-            photo="/src/assets/images/photos/Artem.jpg"
+            photo="https://i.imgur.com/j1DpeR7.jpeg"
             name="Artem Kim"
             position="Webmaster"
         />
       </div>
       <div class="xl:col-start-3 col-start-1">
         <Person
-            photo="/src/assets/images/photos/Justin.jpg"
+            photo="https://i.imgur.com/yjl0YnQ.jpeg"
             name="Justin Yeo"
             position="Webmaster"
         />
       </div>
       <div class="xl:col-start-4 col-start-2">
         <Person
-            photo="/src/assets/images/photos/Barnes.jpg"
+            photo="https://i.imgur.com/EjE0eTt.jpeg"
             name="Dr. Barnes"
             position="Advisor"
         />
